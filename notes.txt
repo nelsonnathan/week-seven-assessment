@@ -1,0 +1,8 @@
+Using the extraLargeArray as a parameter, the runtimes for doublerAppend and doublerInsert are as follows:
+
+doublerAppend - 3.792042 ms
+doublerInsert - 1.077284917 s
+
+By looking at the table in the markdown file I've added, you can see that the array size Tiny vs Extra Large in the insert section, the Tiny runs in about 0.00007 seconds while the Extra Large runs in a touch over a full second. Quite the diffence. 
+Meanwhile, in the append section, Tiny runs in about 0.00002 seconds while Extra Large runs in a touch over 0.004 seconds. 
+From that, it's quite obvious that the append method is hugely more efficient time-wise.

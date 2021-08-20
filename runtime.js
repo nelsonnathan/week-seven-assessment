@@ -73,7 +73,6 @@ console.log('--')
 console.log('Results for mediumArray')
 console.log('insert', insertTimer(mediumArray).preciseWords)
 console.log('append', appendTimer(mediumArray).preciseWords)
-console.log('Results for largeArray')
 
 console.log('--')
 
